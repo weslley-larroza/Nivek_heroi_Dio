@@ -1,0 +1,29 @@
+[
+    {
+        "label": "classificar_jogador",
+        "kind": 2,
+        "importPath": "src.main",
+        "description": "src.main",
+        "peekOfCode": "def classificar_jogador(xp):\n    if 0 > xp:\n        return \"CORROMPIDO\"\n    elif 0<= xp <= 1000:\n        return \"FERRO\"\n    elif 1001 <= xp <=2000:\n        return \"BRONZE\"\n    elif 2001 <= xp <=5000:\n        return \"PRATA\"\n    elif 5001 <= xp <= 7000:",
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "xp_jogador",
+        "kind": 5,
+        "importPath": "src.main",
+        "description": "src.main",
+        "peekOfCode": "xp_jogador = int(input(\"Digite o XP do jogador: \"))\nNome_jogador = input(\"Digite o Nome do jogador: \")\ndef classificar_jogador(xp):\n    if 0 > xp:\n        return \"CORROMPIDO\"\n    elif 0<= xp <= 1000:\n        return \"FERRO\"\n    elif 1001 <= xp <=2000:\n        return \"BRONZE\"\n    elif 2001 <= xp <=5000:",
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "Nome_jogador",
+        "kind": 5,
+        "importPath": "src.main",
+        "description": "src.main",
+        "peekOfCode": "Nome_jogador = input(\"Digite o Nome do jogador: \")\ndef classificar_jogador(xp):\n    if 0 > xp:\n        return \"CORROMPIDO\"\n    elif 0<= xp <= 1000:\n        return \"FERRO\"\n    elif 1001 <= xp <=2000:\n        return \"BRONZE\"\n    elif 2001 <= xp <=5000:\n        return \"PRATA\"",
+        "detail": "src.main",
+        "documentation": {}
+    }
+]
